@@ -53,4 +53,3 @@ if ($_GET['pv']!="") {
   $EA=$EA*100;
   echo '{ "periodovencido" : "'.$_GET['pv'].'",   "efectivoanual" : "'.$EA.'",  "nominalanual" : "'.$NA.'" }';
 }
-//---*---*---*
